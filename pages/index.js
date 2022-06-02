@@ -6,6 +6,7 @@ import { useColorMode } from "@chakra-ui/color-mode";
 import { FaPaw, FaSun, FaMoon, FaInfoCircle, FaTelegramPlane, FaCannabis, FaGithub, FaGripLines, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa'
 import { VscGithub } from 'react-icons/vsc'
 import { AiFillMessage } from 'react-icons/ai'
+import { FcGallery, FcAbout, FcComments, FcCamcorderPro } from 'react-icons/fc'
 import styled from '@emotion/styled'
 
 export const BioSection = styled(Box)`
@@ -32,7 +33,7 @@ export default function Home() {
       </Head>
       <Box as="nav" position="fixed" zIndex={1} backdropFilter="auto" backdropBlur="8px" w="100%">
         <Flex w="100%" pl="7" pr="7" pb="3">
-          <Link isRound='true' mt="3.5" pr="4" pt="1.5" fontSize="18px" transform="" href='/'><FaPaw /></Link>
+          <Link mt="3.5" pr="4" pt="1.5" fontSize="18px" transform="" href='/'><FaPaw /></Link>
           <Nextlink href="/" passHref scroll={false}>
             <Link mt="4" cursor="pointer" fontSize="18.5" fontWeight="extrabold" textDecoration="none" href='/' _hover={{ textDecoration: "none" }}>
               SUJOY
@@ -42,13 +43,16 @@ export default function Home() {
             {isLargerThan650 &&
               <p>
                 <Flex>
+                  <Box pt="21.5px" ml="10" mr="1"><FcGallery /></Box>
                   <Nextlink href="../comp/work" passHref scroll={false}>
-                    <Link mt="4" size="sm" fontSize="lg" ml="7" _hover={{ color: "red.500", textDecoration: "underline", }}>Works</Link>
+                    <Link mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "red.500", textDecoration: "underline", }}>Gallery</Link>
                   </Nextlink>
-                  <Box pt="21.5px" ml="6" mr="1"><AiFillMessage /></Box>
+                  <Box pt="21.5px" ml="6" mr="2"><FcComments /></Box>
                   <Link href='/' mt="4" size="sm" fontSize="lg" ml="0" _hover={{ color: "green.500", textDecoration: "underline", }}>Post</Link>
-                  <Box pt="21.5px" ml="6" mr="1"><VscGithub /></Box>
-                  <Link href='https://github.com/Overlord15/shironeko-homepage' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "pink.500", textDecoration: "underline", }}>Source</Link>
+                  <Box pt="21.5px" ml="6" mr="1"><FcCamcorderPro /></Box>
+                  <Link href='' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "pink.500", textDecoration: "underline", }}>Commissions</Link>
+                  <Box pt="21.5px" ml="6" mr="1"><FcAbout /></Box>
+                  <Link href='' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "pink.500", textDecoration: "underline", }}>About</Link>
                 </Flex>
               </p>
             }
@@ -62,10 +66,10 @@ export default function Home() {
                   <MenuButton as={IconButton} icon={<FaGripLines />} size="sm" mt="3" ml="2" bg={isDark ? "blue.400" : "purple.300"}>
                   </MenuButton>
                   <MenuList>
-                    <MenuItem><Flex alignItems="center"><FaCannabis /><Nextlink href="../comp/work" passHref scroll={false}><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">My Works</Link></Nextlink></Flex></MenuItem>
-                    <MenuItem><Flex alignItems="center"><FaInfoCircle /><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">About Me</Link></Flex></MenuItem>
-                    <MenuItem><Flex alignItems="center"><FaTelegramPlane /><Link ml="2" href="/" alignItems="center" textDecoration="none">Post Section</Link></Flex></MenuItem>
-                    <MenuItem><Flex alignItems="center"><FaGithub /><Link ml="2" justifyContent="center" href="https://github.com/Overlord15/shironeko-homepage" textDecoration="none">View Source On Github</Link></Flex></MenuItem>
+                    <MenuItem><Flex alignItems="center"><FcGallery /><Nextlink href="../comp/work" passHref scroll={false}><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">Gallery</Link></Nextlink></Flex></MenuItem>
+                    <MenuItem><Flex alignItems="center"><FcAbout /><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">About Me</Link></Flex></MenuItem>
+                    <MenuItem><Flex alignItems="center"><FcComments /><Link ml="2" href="/" alignItems="center" textDecoration="none">Post Section</Link></Flex></MenuItem>
+                    <MenuItem><Flex alignItems="center"><FcCamcorderPro /><Link ml="2" justifyContent="center" href="" textDecoration="none">Commisions</Link></Flex></MenuItem>
                   </MenuList>
                 </Menu>
               </p>}
@@ -101,7 +105,7 @@ export default function Home() {
                 <p>Digital Craftsman ( Artist / Developer / Designer )</p>
               </Box>
               <Center mt="6">
-                <Image borderRadius='full' boxSize='150px' src='https://i.pinimg.com/originals/f6/25/19/f6251928ce4061912bf0926e8c80a6f4.gif' objectFit="cover" alt='Anupam Kumar' />
+                <Image borderRadius='full' boxSize='150px' src='sujoy.jpeg' objectFit="cover" alt='Anupam Kumar' />
               </Center>
             </p>
           }
@@ -164,8 +168,8 @@ export default function Home() {
           <Button variant="ghost" color="teal.300" ><FaInstagram /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.instagram.com/weird_anupam_king/' isExternal>@weird_anupam_king</Link></Button>
         </Flex>
 
-        
-        <Box maxW="100%" h="30px" pb="10" pt="8" ><Text textAlign="center" fontSize="15px" fontWeight="light">© 2022 Anupam Kumar. All Rights Reserved.</Text></Box>
+
+        <Box maxW="100%" h="30px" pb="10" pt="8" ><Text textAlign="center" fontSize="15px" fontWeight="light">© 2022 Sujoy Kumar Ghosh. All Rights Reserved.</Text></Box>
       </Container>
     </>
   )
