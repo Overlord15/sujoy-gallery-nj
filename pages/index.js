@@ -4,9 +4,8 @@ import Nextlink from 'next/link'
 import { Button, Text, Center, Box, Container, Flex, Heading, IconButton, Link, Spacer, useMediaQuery, Menu, MenuButton, MenuList, MenuItem, useColorModeValue, Image } from '@chakra-ui/react'
 import { useColorMode } from "@chakra-ui/color-mode";
 import { FaPaw, FaSun, FaMoon, FaInfoCircle, FaTelegramPlane, FaCannabis, FaGithub, FaGripLines, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa'
-import { VscGithub } from 'react-icons/vsc'
-import { AiFillMessage } from 'react-icons/ai'
-import { FcGallery, FcAbout, FcComments, FcCamcorderPro } from 'react-icons/fc'
+// import p1 from "../comp/p1"
+import { FcGallery, FcAbout, FcComments, FcCamcorderPro, FcOldTimeCamera } from 'react-icons/fc'
 import styled from '@emotion/styled'
 
 export const BioSection = styled(Box)`
@@ -28,15 +27,14 @@ export default function Home() {
     <>
       <Head>
         <title>SUJOY | HOMEPAGE</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="https://cdn-icons.flaticon.com/png/512/1135/premium/1135729.png?token=exp=1653665482~hmac=53bdc80273655cb686732d46e1786a52" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <Box as="nav" position="fixed" zIndex={1} backdropFilter="auto" backdropBlur="8px" w="100%">
         <Flex w="100%" pl="7" pr="7" pb="3">
-          <Link mt="3.5" pr="4" pt="1.5" fontSize="18px" transform="" href='/'><FaPaw /></Link>
           <Nextlink href="/" passHref scroll={false}>
             <Link mt="4" cursor="pointer" fontSize="18.5" fontWeight="extrabold" textDecoration="none" href='/' _hover={{ textDecoration: "none" }}>
-              SUJOY
+              SUJOY&apos;S &nbsp;GALLERY
             </Link>
           </Nextlink>
           <div>
@@ -44,15 +42,15 @@ export default function Home() {
               <p>
                 <Flex>
                   <Box pt="21.5px" ml="10" mr="1"><FcGallery /></Box>
-                  <Nextlink href="../comp/work" passHref scroll={false}>
+                  <Nextlink href="../gallery/page-1" passHref scroll={false}>
                     <Link mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "red.500", textDecoration: "underline", }}>Gallery</Link>
                   </Nextlink>
                   <Box pt="21.5px" ml="6" mr="2"><FcComments /></Box>
                   <Link href='/' mt="4" size="sm" fontSize="lg" ml="0" _hover={{ color: "green.500", textDecoration: "underline", }}>Post</Link>
                   <Box pt="21.5px" ml="6" mr="1"><FcCamcorderPro /></Box>
-                  <Link href='' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "pink.500", textDecoration: "underline", }}>Commissions</Link>
+                  <Link href='' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "grey.500", textDecoration: "underline", }}>Commissions</Link>
                   <Box pt="21.5px" ml="6" mr="1"><FcAbout /></Box>
-                  <Link href='' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "pink.500", textDecoration: "underline", }}>About</Link>
+                  <Link href='' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "blue.500", textDecoration: "underline", }}>About</Link>
                 </Flex>
               </p>
             }
@@ -66,7 +64,7 @@ export default function Home() {
                   <MenuButton as={IconButton} icon={<FaGripLines />} size="sm" mt="3" ml="2" bg={isDark ? "blue.400" : "purple.300"}>
                   </MenuButton>
                   <MenuList>
-                    <MenuItem><Flex alignItems="center"><FcGallery /><Nextlink href="../comp/work" passHref scroll={false}><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">Gallery</Link></Nextlink></Flex></MenuItem>
+                    <MenuItem><Flex alignItems="center"><FcGallery /><Nextlink href="../gallery/page-1" passHref scroll={false}><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">Gallery</Link></Nextlink></Flex></MenuItem>
                     <MenuItem><Flex alignItems="center"><FcAbout /><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">About Me</Link></Flex></MenuItem>
                     <MenuItem><Flex alignItems="center"><FcComments /><Link ml="2" href="/" alignItems="center" textDecoration="none">Post Section</Link></Flex></MenuItem>
                     <MenuItem><Flex alignItems="center"><FcCamcorderPro /><Link ml="2" justifyContent="center" href="" textDecoration="none">Commisions</Link></Flex></MenuItem>
@@ -100,7 +98,7 @@ export default function Home() {
             <p>
               <Box pl="2">
                 <Heading>
-                  Anupam Kumar
+                  Sujoy Kumar Ghosh
                 </Heading>
                 <p>Digital Craftsman ( Artist / Developer / Designer )</p>
               </Box>
