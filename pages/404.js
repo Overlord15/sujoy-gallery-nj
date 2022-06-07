@@ -36,7 +36,7 @@ export default function App() {
                     width="100px"
                     height="100px"
                 >
-                    404 Page Not Found!
+                    Coming Soon !
                 </ChakraBox>
             </Container>
             
