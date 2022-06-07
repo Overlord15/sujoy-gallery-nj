@@ -72,7 +72,7 @@ export default function Home() {
                 <Container maxW="container.md">
 
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/1.jpg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/1.jpg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #Bus #Sky #Building</Text>
                             <Spacer></Spacer>
@@ -81,7 +81,7 @@ export default function Home() {
                         </Flex>
                     </Box>
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/2.jpg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/2.jpg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #Street #Rikshaw</Text>
                             <Spacer></Spacer>
@@ -90,7 +90,7 @@ export default function Home() {
                         </Flex>
                     </Box>
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/3.jpg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/3.jpg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #Street #Building #Sky</Text>
                             <Spacer></Spacer>
@@ -99,7 +99,7 @@ export default function Home() {
                         </Flex>
                     </Box>
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/4.jpg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/4.jpg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #Street #Taxi</Text>
                             <Spacer></Spacer>
@@ -108,7 +108,7 @@ export default function Home() {
                         </Flex>
                     </Box>
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/5.jpg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/5.jpg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #Street #Traffic #Evening #Sky</Text>
                             <Spacer></Spacer>
@@ -117,7 +117,7 @@ export default function Home() {
                         </Flex>
                     </Box>
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/6.jpg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/6.jpg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #Street #Traffic #Bus #Sky</Text>
                             <Spacer></Spacer>
@@ -126,7 +126,7 @@ export default function Home() {
                         </Flex>
                     </Box>
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/7.jpg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/7.jpg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #RabindraSetu #Launch #GangesRiver #Sky</Text>
                             <Spacer></Spacer>
@@ -135,7 +135,7 @@ export default function Home() {
                         </Flex>
                     </Box>
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/8.jpg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/8.jpg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #Street #Bus #Building</Text>
                             <Spacer></Spacer>
@@ -144,7 +144,7 @@ export default function Home() {
                         </Flex>
                     </Box>
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/9.jpeg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/9.jpeg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #Bridge #Sunset #GangesRiver</Text>
                             <Spacer></Spacer>
@@ -153,7 +153,7 @@ export default function Home() {
                         </Flex>
                     </Box>
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/11.jpg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "auto"} width={isLargerThan650 ? "750px" : "auto"} borderRadius="10px" src="/photos/11.jpg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #River #Boat #Sky #Rower</Text>
                             <Spacer></Spacer>
@@ -162,7 +162,7 @@ export default function Home() {
                         </Flex>
                     </Box>
                     <Box>
-                        <Image alt='image' objectFit="cover" height={isLargerThan650 ? "480px" : "280px"} width={isLargerThan650 ? "750px" : "750px"} borderRadius="10px" src="/photos/12.jpg" mb="2"></Image>
+                        <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "280px"} width={isLargerThan650 ? "750px" : "750px"} borderRadius="10px" src="/photos/12.jpg" mb="2"></Image>
                         <Flex mb="10">
                             <Text p="5px" mr="5px">#Kolkata #River #Boat #Sky #Rower</Text>
                             <Spacer></Spacer>
