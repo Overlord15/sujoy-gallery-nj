@@ -1,6 +1,6 @@
 import { Container, chakra, Progress } from '@chakra-ui/react';
 import { motion, isValidMotionProp } from 'framer-motion';
-
+import Head from 'next/head'
 const ChakraBox = chakra(motion.div, {
     /**
      * Allow motion props and the children prop to be forwarded.
@@ -11,8 +11,14 @@ const ChakraBox = chakra(motion.div, {
 
 export default function App() {
     return (
-        <><Progress size='xs' isIndeterminate />
-        <Progress size='xs' isIndeterminate />
+        <>
+            <Head>
+                <title>SUJOY | HOMEPAGE</title>
+                <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+                <link rel="shortcut icon" href="/favicon.png" />
+            </Head>
+            <Progress size='xs' isIndeterminate />
+            <Progress size='xs' isIndeterminate />
             <Container h="100vh" display="flex" alignItems="center" justifyContent="center">
                 <ChakraBox
                     textAlign="center"
@@ -39,7 +45,7 @@ export default function App() {
                     Coming Soon !
                 </ChakraBox>
             </Container>
-            
+
         </>
     )
 }
