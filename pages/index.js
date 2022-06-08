@@ -45,12 +45,8 @@ export default function Home() {
                   <Nextlink href="../gallery/page-1" passHref scroll={false}>
                     <Link mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "red.500", textDecoration: "underline", }}>Gallery</Link>
                   </Nextlink>
-                  <Box pt="21.5px" ml="6" mr="2"><FcComments /></Box>
-                  <Link href='/' mt="4" size="sm" fontSize="lg" ml="0" _hover={{ color: "green.500", textDecoration: "underline", }}>Post</Link>
                   <Box pt="21.5px" ml="6" mr="1"><FcCamcorderPro /></Box>
                   <Link href='' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "grey.500", textDecoration: "underline", }}>Commissions</Link>
-                  <Box pt="21.5px" ml="6" mr="1"><FcAbout /></Box>
-                  <Link href='' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "blue.500", textDecoration: "underline", }}>About</Link>
                 </Flex>
               </p>
             }
@@ -65,8 +61,6 @@ export default function Home() {
                   </MenuButton>
                   <MenuList>
                     <MenuItem><Flex alignItems="center"><FcGallery /><Nextlink href="../gallery/page-1" passHref scroll={false}><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">Gallery</Link></Nextlink></Flex></MenuItem>
-                    <MenuItem><Flex alignItems="center"><FcAbout /><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">About Me</Link></Flex></MenuItem>
-                    <MenuItem><Flex alignItems="center"><FcComments /><Link ml="2" href="/" alignItems="center" textDecoration="none">Post Section</Link></Flex></MenuItem>
                     <MenuItem><Flex alignItems="center"><FcCamcorderPro /><Link ml="2" justifyContent="center" href="" textDecoration="none">Commisions</Link></Flex></MenuItem>
                   </MenuList>
                 </Menu>
@@ -115,7 +109,7 @@ export default function Home() {
           </Text>
         </Flex>
         <Text pl="2" mt="3" textAlign="justify">
-          Sujoy is a freelance Photographer and Editor based in Kharagpur with a passion for clicking 1 in a million shots. He has a knack for editing photos.
+          Sujoy is a freelance Photographer and Editor based in Salboni with a passion for clicking 1 in a million shots. He has a knack for editing photos.
         </Text>
         <Center>
           <Button mt="7" bg={isDark ? "teal.300" : "purple.300"} color={isDark ? "black" : "white"} >
@@ -130,12 +124,12 @@ export default function Home() {
         <Box ml="2" pb="30" mt="3">
           <BioSection>
             <BioYear>2003</BioYear>
-            Born in Shalboni ( শালবনি ), India.
+            Born in Salboni ( শালবনি ), India.
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
             Completed the Higher Secondery&apos;s Program in the  School of
-            Shalboni ( শালবনি ).
+            Salboni ( শালবনি ).
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
@@ -160,10 +154,10 @@ export default function Home() {
           </Text>
         </Flex>
         <Flex flexDirection="column" alignItems="baseline">
-          <Button variant="ghost" color="teal.300" ><FaGithub /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://github.com/Overlord15' isExternal>@Overlord15</Link></Button>
-          <Button variant="ghost" color="teal.300" ><FaTwitter /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://twitter.com/AnupamKhamrai' isExternal>@AnupamKhamrai</Link></Button>
-          <Button variant="ghost" color="teal.300" ><FaFacebook /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.facebook.com/anupam.khamrai.3/' isExternal>@anupam.khamrai.3</Link></Button>
-          <Button variant="ghost" color="teal.300" ><FaInstagram /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.instagram.com/weird_anupam_king/' isExternal>@weird_anupam_king</Link></Button>
+          <Button variant="ghost" color="teal.300" ><FaGithub /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://github.com/sujoy2003' isExternal>@sujoy2003</Link></Button>
+          {/* <Button variant="ghost" color="teal.300" ><FaTwitter /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://twitter.com/AnupamKhamrai' isExternal>@AnupamKhamrai</Link></Button> */}
+          <Button variant="ghost" color="teal.300" ><FaFacebook /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.facebook.com/sujoy.ghosh.31521301' isExternal>@sujoy.ghosh.31521301</Link></Button>
+          <Button variant="ghost" color="teal.300" ><FaInstagram /><Link ml="4" textDecoration="none" _hover={{ lineHeight: [1.33, null, 1.2], marginBottom: 4, marginTop: 3, textDecoration: "underline", textDecorationColor: "pink", textDecorationThickness: 2, textUnderlineOffset: 3 }} href='https://www.instagram.com/sujoy_ghosh001/' isExternal>@sujoy_ghosh001</Link></Button>
         </Flex>
 
 

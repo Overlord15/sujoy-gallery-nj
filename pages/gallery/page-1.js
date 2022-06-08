@@ -39,12 +39,8 @@ export default function Home() {
                                     <Nextlink href="../gallery/page-1" passHref scroll={false}>
                                         <Link mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "red.500", textDecoration: "underline", }}>Gallery</Link>
                                     </Nextlink>
-                                    <Box pt="21.5px" ml="6" mr="2"><FcComments /></Box>
-                                    <Link href='/' mt="4" size="sm" fontSize="lg" ml="0" _hover={{ color: "green.500", textDecoration: "underline", }}>Post</Link>
                                     <Box pt="21.5px" ml="6" mr="1"><FcCamcorderPro /></Box>
                                     <Link href='' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "grey.500", textDecoration: "underline", }}>Commissions</Link>
-                                    <Box pt="21.5px" ml="6" mr="1"><FcAbout /></Box>
-                                    <Link href='' isExternal mt="4" size="sm" fontSize="lg" ml="1" _hover={{ color: "blue.400", textDecoration: "underline", }}>About</Link>
                                 </Flex>
                             </p>
                         }
@@ -59,8 +55,6 @@ export default function Home() {
                                     </MenuButton>
                                     <MenuList>
                                         <MenuItem><Flex alignItems="center"><FcGallery /><Nextlink href="../comp/work" passHref scroll={false}><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">Gallery</Link></Nextlink></Flex></MenuItem>
-                                        <MenuItem><Flex alignItems="center"><FcAbout /><Link ml="2" justifyContent="center" href="/" alignItems="center" textDecoration="none">About Me</Link></Flex></MenuItem>
-                                        <MenuItem><Flex alignItems="center"><FcComments /><Link ml="2" href="/" alignItems="center" textDecoration="none">Post Section</Link></Flex></MenuItem>
                                         <MenuItem><Flex alignItems="center"><FcCamcorderPro /><Link ml="2" justifyContent="center" href="" textDecoration="none">Commisions</Link></Flex></MenuItem>
                                     </MenuList>
                                 </Menu>
