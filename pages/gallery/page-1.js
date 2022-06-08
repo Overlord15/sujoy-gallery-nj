@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { AspectRatio } from '@chakra-ui/react'
-// import { Link as Nextlink } from 'next/link'
+// import { Link as Nextlink } from 'next/link'hi
 import Nextlink from 'next/link'
 import { Button, Text, Center, Box, Container, Flex, Heading, IconButton, Link, Spacer, useMediaQuery, Menu, MenuButton, MenuList, MenuItem, useColorModeValue, Image } from '@chakra-ui/react'
 import { useColorMode } from "@chakra-ui/color-mode";
