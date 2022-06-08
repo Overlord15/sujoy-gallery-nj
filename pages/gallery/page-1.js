@@ -164,7 +164,7 @@ export default function Home() {
                     </Box>
                     <Box>
                         <Image alt='image' objectFit="cover" loading='eager' height={isLargerThan650 ? "480px" : "280px"} width={isLargerThan650 ? "750px" : "750px"} borderRadius="10px" src="/photos/12.jpg" mb="2"></Image>
-                            <Text p="5px" mr="5px" textAlign='center'>#Kolkata #River #Boat #Sky #Rower</Text>
+                            <Text p="5px" mr="5px" textAlign='center'>#Kolkata #Bridge #Bus # RabindraSetu</Text>
                         <Flex mb="10">
                             <a href="https://www.facebook.com/sharer/sharer.php?u=https://portfolio-192cf.web.app/photos/12.jpg" target="_blank" rel="noopener noreferrer"><Text color="black" mt="9px" mb="40px" bgColor="blue.400" pt="8px" pb="8px" pl="9px" pr="9px" mr="8px" borderRadius="4px"><Flex> <FaFacebook size="25"/>&nbsp; SHARE</Flex></Text></a>
                             <Spacer></Spacer>
