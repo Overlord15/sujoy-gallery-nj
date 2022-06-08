@@ -13,7 +13,7 @@ export default function App() {
     return (
         <>
             <Head>
-                <title>SUJOY | HOMEPAGE</title>
+                <title>PAGE NOT FOUND</title>
                 <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
                 <link rel="shortcut icon" href="/favicon.png" />
             </Head>
