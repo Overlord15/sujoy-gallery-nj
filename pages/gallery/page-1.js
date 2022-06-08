@@ -178,7 +178,7 @@ export default function Home() {
                             <Link bgColor="grey.300" border="2px" borderColor="teal.300" borderRadius="5px" p="3" _hover={{textDecoration: "none"}} href='../gallery/page-1' cursor="no-drop">Prev Page</Link>
                         </Nextlink> */}
                         <Spacer></Spacer>
-                        <Nextlink href="./404" passHref scroll={false}>
+                        <Nextlink href="page-2" passHref scroll={false}>
                             <Link bgColor="teal.300" p="3" href='./404' border="2px" borderRadius="5px" borderColor="teal.300" _hover={{ textDecoration: "none" }}>Next Page</Link>
                         </Nextlink>
 
